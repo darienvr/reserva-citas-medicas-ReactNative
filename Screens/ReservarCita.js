@@ -11,8 +11,6 @@ import HoraLogo from 'react-native-vector-icons/Ionicons';
 
 const ReservarCita = ({navigation}) => {  
 
-  const [selectedIdTiemposDisponibles, setSelectedIdTiemposDisponibles] = useState(null);
-
   const [selectedEspecialidad, setSelectedEspecialidad] = useState(null);
   const [selectedDoctor, setSelectedDoctor] = useState(null);
   const [selectedFecha, setSelectedFecha] = useState('');
