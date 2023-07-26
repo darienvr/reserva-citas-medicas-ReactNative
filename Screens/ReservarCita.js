@@ -2,7 +2,7 @@ import { View, Text, StyleSheet, TextInput, Button, TouchableOpacity, ScrollView
 import React, { useState, useContext, useEffect } from 'react';
 import { Picker } from '@react-native-picker/picker';
 import { doctores, especialidades } from '../data';
-import PasosCita from '../../the_cure_app/Components/PasosCita';
+import PasosCita from '../Components/PasosCita';
 import DoctorLogo from 'react-native-vector-icons/Fontisto';
 import EspecialidadLogo from 'react-native-vector-icons/Octicons';
 import FechaLogo from 'react-native-vector-icons/AntDesign';

@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { MyContextProvider } from './MyContext';
+
 
 
 import HomeScreen from './Screens/HomeScreen';
@@ -24,7 +24,6 @@ export default function App() {
   };
 
   return (
-    <MyContextProvider>
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name="HomeScreen" component={HomeScreen} options={{headerShown:false}}/>
@@ -38,7 +37,6 @@ export default function App() {
           
         </Stack.Navigator>
       </NavigationContainer>
-    </MyContextProvider>
   );
 }
 

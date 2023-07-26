@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
-import Especialidad from '../../the_cure_app/Components/Especialidad'
+import Especialidad from '../Components/Especialidad'
 
 const EspecialidadScreen = ({navigation, route}) => {
 

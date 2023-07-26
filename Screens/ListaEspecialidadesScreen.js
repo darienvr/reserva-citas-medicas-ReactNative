@@ -1,6 +1,6 @@
 import { View, Text, FlatList, StyleSheet } from 'react-native'
 import React, {useContext} from 'react'
-import Especialidad from '../../the_cure_app/Components/Especialidad'
+import Especialidad from '../Components/Especialidad'
 
 const ListaEspecialidadesScreen = ({navigation}) => {
 

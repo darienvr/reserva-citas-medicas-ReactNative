@@ -1,6 +1,6 @@
 import { View, Text, FlatList, StyleSheet } from 'react-native'
 import React, {useContext} from 'react'
-import Doctor from '../../the_cure_app/Components/Doctor'
+import Doctor from '../Components/Doctor'
 
 const DoctorScreen = ({navigation}) => {
 
